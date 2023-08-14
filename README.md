@@ -14,10 +14,14 @@
    selecting "Run File".
 8) The default source and target languages are English and Hindi. To change them, follow these
    steps:
+   
    -> Scroll down until you see the "Browser URL" element.
+   
    -> Then double-click on the URL and change the 'sl' and 'tl' values to your desired language codes.
-9) The parallel dataset for your language can be found in the output.txt file. Execution time depends on the size of the input file. You can keep track of the progress with the help of the count.txt file.
-10) Below are sample input and output files for your reference.
+
+   -> Find your language codes [here](https://cloud.google.com/translate/docs/languages).
+10) The parallel dataset for your language can be found in the output.txt file. Execution time depends on the size of the input file. You can keep track of the progress with the help of the count.txt file.
+11) Below are sample input and output files for your reference.
 
 Sample Input
 
