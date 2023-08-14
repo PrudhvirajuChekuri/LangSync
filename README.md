@@ -1,8 +1,8 @@
 # Instructions to generate parallel datasets for low-resource languages.
 
-1) Download the UIPath Studio and its browser extension. Enable the extension in your browser.
+1) Download the [UIPath Studio](https://www.uipath.com/product/studio) and its [browser extension](https://docs.uipath.com/studio/standalone/2023.4/user-guide/extension-for-chrome). Enable the extension in your browser.
 2) Download the ParallelCorpus.zip file.
-3) Unzip and place it in the UIPath directory(Path given during installation).
+3) Unzip and move it to the UIPath directory(Path given during installation).
 4) Collect the English sentences you want to use for training, and add them to a text file.
    Sentences should be separated by '\n' and a '$' key should be used after every 5000
    characters because of the limits.
@@ -16,7 +16,7 @@
    steps:
    -> Scroll down until you see the "Browser URL" element.
    -> Then double-click on the URL and change the 'sl' and 'tl' values to your desired language codes.
-9) The parallel dataset for your language can be found in the output.txt file. Execution time depends on the size of the input file. You can monitor the progress with the help of the count.txt file which stores the number of sentences processed.
+9) The parallel dataset for your language can be found in the output.txt file. Execution time depends on the size of the input file. You can keep track of the progress with the help of the count.txt file.
 10) Below are sample input and output files for your reference.
 
 Sample Input
