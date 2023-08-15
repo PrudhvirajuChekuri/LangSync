@@ -1,5 +1,5 @@
-# Instructions to generate parallel datasets for low-resource languages.
-
+# LangSync(A solution to generate parallel datasets for low-resource languages).
+## Instructions:
 1) Download the [UIPath Studio](https://www.uipath.com/product/studio) and its [browser extension](https://docs.uipath.com/studio/standalone/2023.4/user-guide/extension-for-chrome). Enable the extension in your browser.
 2) Download the ParallelCorpus.zip file.
 3) Unzip and move it to the UIPath directory(Path given during installation).
